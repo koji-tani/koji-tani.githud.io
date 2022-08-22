@@ -1,0 +1,302 @@
+.container{
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#inputHex {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+p{
+    margin: 30px 0px;
+    font-size: 24px;
+}
+
+/*#result {
+    font-size: 28px;
+    
+}*/
+
+.container1{
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#inputHex1 {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+
+#btn1 {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+p{
+    margin: 30px 0px;
+    font-size: 24px;
+}
+
+/*#result {
+    font-size: 28px;
+    
+}*/
+
+
+.container2{
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#inputHex2a {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+#inputHex2b {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+#inputHex2c {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+#inputHex2d {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 10px; 
+    text-align: center;   
+}
+
+#btn2 {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+/*#result2 {
+    font-size: 28px;
+    font-weight: bold;
+}*/
+
+
+.container3{
+    width: 360px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #efefef;
+    text-align: center;
+}
+
+#inputHex3a {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center;   
+}
+#inputHex3b {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center;   
+}
+#inputHex3c {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center;   
+}
+#inputHex3d {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center;   
+}
+#inputHex3e {
+    width: 50px;
+    height: 80px;
+    line-height: 40px;
+    margin: 10 auto;
+    background: rgb(155, 238, 190);
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center;   
+}
+
+#btn3 {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+/*#result3 {
+    font-size: 28px;
+    font-weight: bold;
+}*/
+
+img {
+    margin: auto;
+    
+  }
+
+table {
+    table-layout: fixed; /* 固定レイアウト */
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse ;  /* 隣接する枠線を重ねる */
+    width: 300px;               /* 表の横幅：300ピクセル */
+    border: 10px solid #fff;  /* 外枠：10px,実線,白色 */
+} 
+
+table th {
+    border: 2px solid#ccc;
+}
+
+table th.title {
+    width: 3em ;  /* セルの横幅：3文字分 */
+}
+
+table td {
+    border: 2px solid#ccc;
+   
+}
+
+table td.data {
+    font-weight: bold;
+    color: rgb(20, 10, 130);
+    font-size: 36px;
+}
+
+.table1 {
+    table-layout: fixed; /* 固定レイアウト */
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse ;  /* 隣接する枠線を重ねる */
+    width: 1000px;               /* 表の横幅：1000ピクセル */
+    height:200px;
+    border: 10px solid rgb(219, 122, 122);  /* 外枠：10px,実線,白色 */
+} 
+
+
