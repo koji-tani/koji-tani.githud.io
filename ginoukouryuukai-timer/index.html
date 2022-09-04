@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>競技タイマーSTD</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="modules/lodash.full.min.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+</head>
+
+<body>
+  <h1>交流会SX級課題１競技タイマー</h1>
+  <h2 id="realtime">**:**:**</h2>
+  <div class ="container">    
+    <div id = "timer">READY</div>
+    <div id="btn">START/stop</div>
+    <div class="copy">
+      <div><a href="https://otologic.jp/">音源は”otologic”</a></div>
+      <div><a href="https://www.keshikan.net/index.html">フォントは”けしのみ工房”</a></div>
+    </div>
+  </div>
+
+  <table class ="teble">
+    <tr>
+      <th>現在時刻</th>
+      <td colspan="2" id="nowtime" class="data1">**:**:**</td>
+    </tr>
+    <tr>
+      <th>開始時間</th>
+      <td colspan="2" id="starttime" class="data2">**:**:**</td>
+    </tr>
+    <tr>
+      <th>Call-1</th>
+      <td><input type="time" id="calltime1" class="data3" placeholder="**:**"></td>
+      <td id="check1" class="data4">00:30</td>
+    </tr>
+    <tr>
+      <th>トラ修終了Call</th>
+      <td ><input type="time" id="calltime2" class="data3" placeholder="**:**"></td>
+      <td id="check2" class="data4">00:57</td>
+    </tr>
+    <tr>
+      <th>Call-3</th>
+      <td ><input type="time" id="calltime3" class="data3" placeholder="**:**"></td>
+      <td id="check3" class="data4">01:30</td>
+    </tr>
+    <tr>
+      <th>Call-4</th>
+      <td ><input type="time" id="calltime4" class="data3" placeholder="**:**"></td>
+      <td id="check4" class="data4">02:00</td>
+    </tr>
+    <tr>
+      <th>終了時間Call</th>
+      <td ><input type="time" id="calltime5" class="data3" placeholder="**:**"></td>
+      <td id="check5" class="data4">02:27</td>
+    </tr>
+    
+  </table>
+
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+  <script>
+    setInterval(()=>{
+      const realtime = document.querySelector("#realtime");
+    let date = new Date();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+    if(hours < 10) {
+      hours = "0" + hours ;
+    }
+    if(minutes < 10) {
+      minutes = "0" + minutes ;
+    }
+
+    realtime.textContent = hours + ":" + minutes ;
+    })
+  </script>
+
+</body>
+
+</html>
